@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="_css/estilo.css" />
+    <meta charset="UTF-8" />
+    <title>Formulario em HTML</title>
+  </head>
+  <body>
+    <div>
+      <form action="cor.php" method="get">
+        <label for="texto">Texto: </label>
+        <input type="text" name="texto" id="texto"><br>
+        <label for="tamanho">Tamanho</label>
+        <select name="tamanho" id="tamanho">
+          <option value="10">10pt</option>
+          <option value="20">20pt</option>
+          <option value="30">30pt</option>
+          <option value="40">40pt</option>
+          <option value="50">50pt</option>
+        </select><br>
+        <input type="color" name="cor" id="cor">
+        
+        <br />
+        <input type="submit" value="Verificar" />
+      </form>
+    </div>
+  </body>
+</html>
