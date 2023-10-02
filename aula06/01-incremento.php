@@ -10,10 +10,8 @@
 <body>
   <div>
     <?php
-    $n1 = $_GET["a"];
-    $n2 = $_GET["b"];
-    $soma = $n1 + $n2;
-    echo "A soma entre $n1 e $n2 é igual a: $soma";
+    $preco = 100;
+    echo "R$ ". number_format($preco,2,",") . " é o preço do produto, com 10% fica: R$" . number_format($preco + ($preco * 0.10),2,",");
 
     ?>
   </div>

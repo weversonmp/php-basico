@@ -10,10 +10,8 @@
 <body>
   <div>
     <?php
-    $n1 = $_GET["a"];
-    $n2 = $_GET["b"];
-    $soma = $n1 + $n2;
-    echo "A soma entre $n1 e $n2 é igual a: $soma";
+    $n1 = 8000;
+    echo number_format($n1,2,",",".");
 
     ?>
   </div>
